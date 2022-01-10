@@ -348,6 +348,8 @@ func (r *FullscreenRenderer) GetChar() Event {
 			return Event{CtrlBackSlash, 0, nil}
 		case tcell.KeyCtrlRightSq:
 			return Event{CtrlRightBracket, 0, nil}
+		case tcell.KeyCtrlLeftSq:
+			return Event{CtrlLeftBracket, 0, nil}
 		case tcell.KeyCtrlCarat:
 			return Event{CtrlCaret, 0, nil}
 		case tcell.KeyCtrlUnderscore:

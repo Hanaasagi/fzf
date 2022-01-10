@@ -290,6 +290,8 @@ func (r *LightRenderer) GetChar() Event {
 		return Event{BSpace, 0, nil}
 	case 0:
 		return Event{CtrlSpace, 0, nil}
+	case 27:
+		return Event{CtrlLeftBracket, 0, nil}
 	case 28:
 		return Event{CtrlBackSlash, 0, nil}
 	case 29:

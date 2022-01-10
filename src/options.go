@@ -508,6 +508,8 @@ func parseKeyChords(str string, message string) map[tui.Event]string {
 			add(tui.CtrlBackSlash)
 		case "ctrl-]":
 			add(tui.CtrlRightBracket)
+		case "ctrl-[":
+			add(tui.CtrlLeftBracket)
 		case "change":
 			add(tui.Change)
 		case "backward-eof":

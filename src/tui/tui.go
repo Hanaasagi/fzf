@@ -43,8 +43,9 @@ const (
 	CtrlSpace
 
 	// https://apple.stackexchange.com/questions/24261/how-do-i-send-c-that-is-control-slash-to-the-terminal
-	CtrlBackSlash
 	CtrlRightBracket
+	CtrlBackSlash
+	CtrlLeftBracket
 	CtrlCaret
 	CtrlSlash
 
